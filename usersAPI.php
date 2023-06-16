@@ -64,7 +64,7 @@ foreach($results as $result)
     $html .="<td>" .$result->name ."</td>";
     $html .="<td>" .$result->username ."</td>"; 
     $html .="<td >" .$result->email ."</td>";
-    $html .= "<td> <button class='btn'  id='#read-one-btn'  data-id=''>Read more </button></td>";
+    $html .= "<td> <button class='btn'  id='#read-one-btn'  data-id=''> .'Read more'. </button></td>";
     //
     $html .= "</tr>";
 
